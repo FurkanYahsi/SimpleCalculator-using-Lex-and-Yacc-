@@ -13,7 +13,7 @@ int yyerror(char *s);
 %type <fval> expr term factor primary
 %token PLUS MINUS TIMES DIVIDE EXP LPAREN RPAREN
 
-/* Operator Priority 
+/* Operator Priority */
 %left PLUS MINUS
 %left TIMES DIVIDE
 %right EXP
